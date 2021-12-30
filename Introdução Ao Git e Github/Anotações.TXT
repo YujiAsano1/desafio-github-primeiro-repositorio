@@ -1,0 +1,64 @@
+Git Download:
+https://git-scm.com/downloads
+O Git Bash é um terminal extendido para otimizar o uso do git.
+
+Typora Download:
+https://typora.io
+
+Commandos Do Git. 
+git clone = ele clona para o seu pc local.
+git status = ele ver o status de seus arquivos
+git commit = ele commita para mandar para o github.
+-m = colocar mensagem para o commit.
+git push origin main = manda tudo para o github.
+git add . ou * = prepara tudo para mandar.
+ssh-keygen -t ed25519 -C (seu email) = para criar uma chave ssh para o seu github.
+cd = para entrar numa pasta especifíca.
+ls = para ver o que tem dentro da pasta.
+cat id_ed25519.pub (sempre ser a publica.)
+pwd = mostra o caminho completo
+eval $(ssh-agent -s) ele faz o agente funcionar. e lhe dar um código.
+ssh-add id_ed25519 (use o privado!)
+git init = ele inicia para você antes mesmo de dar um commit.=
+git config = serve para voce fazer as configurações nessessarias para mandar para o github(autor,email e etc)
+git remote add origin (link) = ele conecta as listas entre o ithub e o git.
+git remote -v = ele mostra oque você trouxe á maquina.
+git push origin master = ele literalmente leva tudo á o github. e pede sua senha.
+mkdir = ele faz uma pasta para você.
+mv = ele move para a pasta.
+cd .. = ele move um nivel para você.
+echo > = ele faz uma readme ou mensagem para você.
+
+commandos do git config:
+--global user.email "seu email"
+--global user.name (seu nickname)
+--global --unset (para tirar algo especificado na lista)
+--list = para ver tudo especificado 
+
+markdown é uma forma mais humanizada de html.
+melhor para usar e fazer commits mais "bonitinhas".
+
+
+A Sigla SHA
+significa "secure hash algorithm" 
+é um conjunto de funções hash criptográficas
+ projetadas pela NSA (agência de segurança nacional dos EUA).
+
+A encripitação gera conjunto de characteres identificador de 40 dígitos.
+
+blobs
+trees
+commits
+
+cada um precisa dos outros, uma commit pode ter uma tree, parente, e autor. mensagem e timestamp.
+trees podem ter outras trees dentro dela.
+blobs são os básicos. dentro da pasta. que ficam dentro das trees.
+
+o git é u sistema distribuído seguro.
+o github é uma nuvem 
+ele coloca o estado final (ultima atualização) cada um tem sua versão do repositorio.
+nunca vai mudar oque estarem NA SUA MAQUINA.
+
+e bom fazer um token pessoal para que você não precise colocar uma senha quando você for fazer algo.
+
+
