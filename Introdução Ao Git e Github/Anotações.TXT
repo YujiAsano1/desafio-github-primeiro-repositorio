@@ -54,7 +54,7 @@ cada um precisa dos outros, uma commit pode ter uma tree, parente, e autor. mens
 trees podem ter outras trees dentro dela.
 blobs são os básicos. dentro da pasta. que ficam dentro das trees.
 
-o git é u sistema distribuído seguro.
+o git é um sistema distribuído seguro.
 o github é uma nuvem 
 ele coloca o estado final (ultima atualização) cada um tem sua versão do repositorio.
 nunca vai mudar oque estarem NA SUA MAQUINA.
