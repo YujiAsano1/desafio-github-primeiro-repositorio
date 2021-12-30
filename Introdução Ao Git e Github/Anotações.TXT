@@ -21,7 +21,7 @@ eval $(ssh-agent -s) ele faz o agente funcionar. e lhe dar um código.
 ssh-add id_ed25519 (use o privado!)
 git init = ele inicia para você antes mesmo de dar um commit.=
 git config = serve para voce fazer as configurações nessessarias para mandar para o github(autor,email e etc)
-git remote add origin (link) = ele conecta as listas entre o ithub e o git.
+git remote add origin (link) = ele conecta as listas entre o github e o git.
 git remote -v = ele mostra oque você trouxe á maquina.
 git push origin master = ele literalmente leva tudo á o github. e pede sua senha.
 mkdir = ele faz uma pasta para você.
