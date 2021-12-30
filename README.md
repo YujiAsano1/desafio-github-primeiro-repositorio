@@ -1,2 +1,2 @@
-# desafio-github-primeiro-repositorio
-Aula Da Dio, sobre fazer o desafio de repositorio do professor @falvojr 
+# Desafio de Primeiro Repositório Da DIO.
+desafio de repositorio do professor @falvojr 
